@@ -16,9 +16,12 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="assets/images/company logo-small.jpg" alt="Jansen Reliance">
-        
-    </a>
+      
+        <a class="navbar-brand" href="#">Jansen Reliance LLC
+          
+      </a>
+
+    
      
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,44 +57,50 @@
       
     </section>
 
-    <div class="input-group">
-      <span class="input-group-text">First and last name</span>
-      <input type="text" aria-label="First name" class="form-control">
-      <input type="text" aria-label="Last name" class="form-control">
+  </div>
+  <div class="container">
+  <form>
+    <div class="row">
+        <div class="col">
+          <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp" placeholder="First name" required>
+        </div>
+        <div class="col">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp" placeholder="Last name" required>
+        </div>
+      </div>        
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
 
-    <div class="input-group">
-      <span class="input-group-text">Email Address</span>
-      <input type="text" aria-label="Email address" class="form-control">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Company Name</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="companyHelp" placeholder="Enter Company name" required>
       
     </div>
+    
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">What are you interested in?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Belts</option>
+      <option>Machines</option>
+      <option>Parts</option>
+      <option>Multiple</option>
+    
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">How did you hear about us?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary mt-2">Submit</button>
+  </form>
+  </div>
 
-    <div class="input-group">
-      <span class="input-group-text">Phone Number</span>
-      <input type="text" aria-label="Phone number" class="form-control">
-      
-    </div>
-
-    <div class="input-group">
-      <span class="input-group-text">Company Name</span>
-      <input type="text" aria-label="Company Name" class="form-control">
-      <input type="text" aria-label="Last name" class="form-control">
-    </div>
    
-    <div class="input-group">
-      <span class="input-group-text">Comments</span>
-      <textarea class="form-control" aria-label="With textarea"></textarea>
-    </div>
-   
-    <div class="input-group mb-3">
-      <label class="input-group-text" for="inputGroupSelect01">Core Product Selected</label>
-      <select class="form-select" id="inputGroupSelect01">
-        <option selected>Choose...</option>
-        <option value="1">Belt</option>
-        <option value="2">Installation Services</option>
-        <option value="3">Glue Machine</option>
-      </select>
-    </div>
     
   </main>
 
