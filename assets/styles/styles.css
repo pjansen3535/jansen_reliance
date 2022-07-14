@@ -25,18 +25,23 @@
  }
 
  #box_machine {
-    padding-top: 175px;
+    padding-top: 25px;
 
  }
+
+#board_converter_image {
+   padding-bottom: 150px;
+}
 
  #glue_machine {
     padding-top: 60px;
 
  }
 
- #double_backer {
-    padding-top: 70px;
+ 
 
+ #doubleimage {
+   padding-bottom: 75px;
  }
 
  #parts {
@@ -52,7 +57,7 @@
  }
 
  #service {
-    padding-top: 125px;
+    padding-top: 100px;
  }
 
  #contact_footer {
